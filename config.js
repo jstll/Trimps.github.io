@@ -5754,7 +5754,7 @@ var toReturn = {
 		speedTemp: 0,
 		slowdown: false,
                 ewma_alpha: 0.05,
-                ewma_ticks: 10, // 1 second
+                ewma_ticks: 100, // 1 second
 	},
 
 	resources: {
