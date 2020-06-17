@@ -16898,7 +16898,7 @@ function gameTimeout() {
 		return;
 	}
 	game.global.lastOnline = now;
-    var tick = 100 / game.settings.speed;
+    var tick = 10 / game.settings.speed;
     game.global.time += tick;
 	var dif = (now - game.global.start) - game.global.time;
     while (dif >= tick) {
