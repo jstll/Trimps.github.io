@@ -8569,7 +8569,7 @@ function getFuelBurnRate(){
 }
 
 function getMagmiteDecayAmt(){
-	var rate = 30;
+	var rate = 10;
 	if (game.permanentGeneratorUpgrades.Shielding.owned)
 		rate -= 10;
 	return rate;
